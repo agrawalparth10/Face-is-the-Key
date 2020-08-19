@@ -1,9 +1,9 @@
-## Face-is-the-Key
+# Face-is-the-Key
 
-# Description
+### Description
 Encrypt and Decrypt Files using Face Recognition. 
 
-# TODO List
+### TODO List
 
 1. -[x] ~~Use Caffe Model for Face Detection~~
 2. -[x] ~~Use OpenFace pretrained models for Face Recognition~~
@@ -14,7 +14,7 @@ Encrypt and Decrypt Files using Face Recognition.
 7. -[ ] Develop training scripts to create embeddings - ArcFace, VarGFaceNet 
 8. -[ ] Safely store the Key
 
-# Usage
+### Usage
 **Create Database**
 
 Store a few images of the user in ./dataset/user folder
@@ -54,7 +54,7 @@ python main.py -f [FILE NAME] -m decrypt
 ```
 The face of the user will be recognized using the webcam. If the user is matched, the file will be decrypted. 
 
-# References 
+### References 
 1. <https://www.pyimagesearch.com/2018/09/24/opencv-face-recognition/>
 2. <https://arxiv.org/abs/1503.03832>
 3. <https://github.com/deepinsight/insightface>
